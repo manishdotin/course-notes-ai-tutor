@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+!checkpoints/*.pt
+!checkpoints/latest.pt
+!checkpoints/.gitkeep

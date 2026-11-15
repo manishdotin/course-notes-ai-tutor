@@ -1,0 +1,83 @@
+COURSE NOTES FOR REVISION
+
+ARTIFICIAL INTELLIGENCE
+Artificial Intelligence is the field of building computer systems that perform tasks associated with intelligent behaviour. An intelligent agent perceives its environment through sensors and acts through actuators. A rational agent selects an action that is expected to maximize its performance measure, given its percept history and available knowledge.
+
+A problem-solving agent defines a goal, formulates a problem, searches for a sequence of actions, and executes a solution. Breadth First Search explores the shallowest nodes first using a queue. It is complete when the branching factor is finite and finds a shortest path when every step has equal cost. Depth First Search explores one branch deeply before backtracking and uses a stack or recursion. A* search evaluates a node using f(n) = g(n) + h(n), where g is the path cost so far and h is an estimate of the remaining cost.
+
+MACHINE LEARNING
+Machine Learning is a branch of artificial intelligence in which a model learns patterns from data instead of relying only on explicitly written rules. Supervised learning uses labelled examples. Classification predicts a category, while regression predicts a numerical value. Unsupervised learning finds structure in unlabelled data, for example by clustering similar records. Reinforcement learning trains an agent through rewards and penalties for actions in an environment.
+
+A dataset is commonly divided into training, validation, and test sets. The training set updates model parameters. The validation set helps select settings and detect overfitting. The test set estimates performance on unseen data. Overfitting occurs when a model learns training examples too closely and performs poorly on new examples. Underfitting occurs when a model is too simple to capture important patterns. Cross-validation evaluates a model across several data splits.
+
+A neural network contains layers of connected units. Each unit calculates a weighted sum, adds a bias, and applies an activation function. Backpropagation calculates gradients of the loss with respect to parameters. Gradient descent uses those gradients to update parameters and reduce loss. The learning rate controls the size of each update. An epoch is one complete pass through the training dataset.
+
+DATA STRUCTURES
+A data structure organizes data so that it can be accessed and modified efficiently. An array stores elements in indexed positions. A linked list stores elements in nodes connected by references. A stack follows Last In, First Out. Its main operations are push and pop. A queue follows First In, First Out. Its main operations are enqueue and dequeue.
+
+A tree is a hierarchical data structure made of nodes and edges. The top node is called the root. A binary tree has at most two children per node. In a binary search tree, values in the left subtree are smaller than the node and values in the right subtree are larger, according to its ordering rule. A graph consists of vertices and edges. Breadth First Search and Depth First Search can traverse graphs.
+
+SOFTWARE ENGINEERING
+Software engineering applies systematic methods to the development, operation, and maintenance of software. A software process includes specification, development, validation, and evolution. Requirements describe what a system should do and the constraints under which it must operate. Functional requirements describe services or behaviours. Non-functional requirements describe qualities such as performance, security, usability, and reliability.
+
+The waterfall model organizes development into sequential phases. Agile development delivers software in small increments and uses feedback to adapt to change. Testing checks whether software behaves as expected. Unit testing checks a small component. Integration testing checks interactions between components. System testing evaluates the complete system. Regression testing checks that changes have not broken existing behaviour.
+
+COMPUTER NETWORKS
+A computer network connects devices so that they can exchange data and share resources. The OSI reference model has seven layers: Physical, Data Link, Network, Transport, Session, Presentation, and Application. The Physical layer transmits raw bits. The Data Link layer handles frames and local delivery. The Network layer handles logical addressing and routing. The Transport layer supports end-to-end communication and may provide reliability and flow control.
+
+An IP address identifies an interface on an IP network. A router forwards packets between networks. A switch forwards frames within a local network. TCP is connection-oriented and provides ordered, reliable delivery. UDP is connectionless and has lower overhead but does not guarantee delivery or order. DNS translates domain names into IP addresses.
+
+DATABASE SYSTEMS
+A database is an organized collection of related data. A database management system provides ways to define, store, retrieve, and update data. A relational database organizes information into tables containing rows and columns. A primary key uniquely identifies a row. A foreign key refers to a key in another table and helps represent relationships.
+
+SQL is used to work with relational databases. SELECT retrieves data, INSERT adds rows, UPDATE changes existing rows, and DELETE removes rows. A JOIN combines related rows from tables. Normalization organizes tables to reduce unnecessary duplication and update anomalies. A transaction is a logical unit of work. ACID properties are Atomicity, Consistency, Isolation, and Durability.
+
+RESEARCH METHODS
+Research is a systematic investigation carried out to develop knowledge or answer a question. A research problem identifies the issue to be studied. A literature review examines existing work and helps identify gaps. A research objective states what the study intends to achieve. A hypothesis is a testable statement about a possible relationship or difference.
+
+Primary data is collected directly by the researcher for the current study, for example through surveys, interviews, or experiments. Secondary data already exists and was collected for another purpose, for example reports, books, or published datasets. A sample is a subset of a population. Random sampling gives members a known chance of selection. A variable is a characteristic that can take different values. An independent variable is treated as a possible cause or input, while a dependent variable is the measured outcome.
+
+STUDY SKILLS AND EXAM REVISION
+Active recall means trying to retrieve information from memory instead of only rereading it. Spaced repetition revisits material over increasing intervals. Practice questions help identify gaps in understanding. A useful revision answer defines the concept, explains its main points, and gives a short example when appropriate. If a question is unclear, identify its key terms and connect them to the relevant topic in the notes.
+
+IMPORTANT DEFINITIONS
+An algorithm is a finite sequence of well-defined steps for solving a problem. A compiler translates source code into another form, commonly machine code or an intermediate representation. An operating system manages computer hardware and provides services to programs. A process is a program in execution. A thread is a unit of execution within a process. Memory management allocates and tracks memory used by programs.
+
+A language model predicts the next token based on the tokens that came before it. Tokenization converts text into smaller units called tokens. An embedding maps a token ID to a learned vector. Self-attention lets each token combine information from other allowed tokens. A causal mask prevents a decoder-only language model from using future tokens while predicting the next token. A transformer block commonly contains attention, a feed-forward network, residual connections, and layer normalization.
+
+REVISION QUESTIONS AND SHORT ANSWERS
+Question: What is Artificial Intelligence?
+Answer: Artificial Intelligence is the field of building computer systems that perform tasks associated with intelligent behaviour.
+
+Question: What is a rational agent?
+Answer: A rational agent selects an action expected to maximize its performance measure using its percept history and available knowledge.
+
+Question: What is the difference between BFS and DFS?
+Answer: Breadth First Search explores the shallowest nodes first using a queue. Depth First Search explores one branch deeply before backtracking, commonly using a stack or recursion.
+
+Question: What is supervised learning?
+Answer: Supervised learning is a type of machine learning that uses labelled examples to learn a mapping from inputs to expected outputs.
+
+Question: What is overfitting?
+Answer: Overfitting occurs when a model learns training examples too closely and performs poorly on new, unseen examples.
+
+Question: What is a stack?
+Answer: A stack is a linear data structure that follows Last In, First Out. Its main operations are push and pop.
+
+Question: What is a queue?
+Answer: A queue is a linear data structure that follows First In, First Out. Its main operations are enqueue and dequeue.
+
+Question: What are functional requirements?
+Answer: Functional requirements describe the services, features, or behaviours that a software system should provide.
+
+Question: What is the OSI model?
+Answer: The OSI model is a seven-layer reference model for network communication: Physical, Data Link, Network, Transport, Session, Presentation, and Application.
+
+Question: What is a primary key?
+Answer: A primary key is a field or combination of fields that uniquely identifies each row in a relational database table.
+
+Question: What is primary data?
+Answer: Primary data is collected directly by a researcher for the current study, for example through surveys, interviews, or experiments.
+
+Question: What is a causal mask in GPT?
+Answer: A causal mask prevents a token from attending to future tokens, so next-token prediction cannot use information from the future.
