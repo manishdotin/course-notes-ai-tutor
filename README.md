@@ -2,6 +2,8 @@
 
 A command-line revision tutor built around a **small decoder-only GPT trained from scratch in PyTorch**. It uses a byte-level Byte-Pair Encoding (BPE) tokenizer, learned token and position embeddings, hand-written causal self-attention, transformer blocks, next-token cross-entropy training, text generation, and reusable checkpoints.
 
+[![Built with askThili](https://msrit.ask.thili.ai/api/v1/public/projects/evnr297kn2/badge.svg)](https://msrit.ask.thili.ai/b/evnr297kn2)
+
 > This is an educational mini-model, not a pretrained ChatGPT-style service. Its answers are generated from patterns in the supplied notes and can be incomplete or incorrect. Check important facts against your course material.
 
 ## Features
